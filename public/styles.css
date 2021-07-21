@@ -1,0 +1,61 @@
+#bluescore {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    margin: auto;
+    color: blue;
+    font-size: 100px;
+}
+
+#redscore {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    margin: auto;
+    color: red;
+    font-size: 100px;
+}
+.red {
+    background-color: red;
+    height: 70vh;
+    width: 50vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.blue {
+    background-color: blue;
+    height: 70vh;
+    width: 50vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    cursor: pointer;
+}
+button {
+    position: absolute;
+    top: 20vh;
+    left: 990px;
+    width: 70px;
+}
+
+#redtext {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    right: 46vw;
+    opacity: 0;
+}
+
+#bluetext {
+    color: blue;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    right: 46vw;
+    opacity: 0;
+}
